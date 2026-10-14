@@ -64,10 +64,6 @@ Google 重定向及部分远程重写需要 MITM 证书：
 ### 🔄 重写规则
 - 红果 / 番茄去广告（本仓库 `rules/hongguo-adblock.list` + `scripts/hongguo-adblock.conf`）
 
-- BoxJS
-- YouTube 字幕
-- YouTube 去广告
-- Spotify 增强
 
 ### 🧰 手动检测
 
