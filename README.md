@@ -19,6 +19,17 @@ Quantumult X 公开配置，主配置位于 [`profile/QX_Config.conf`](profile/Q
    ```
    https://cdn.jsdelivr.net/gh/chengaiying99-cmd/QuantumultX@main/profile/QX_Config.conf
    ```
+### 关于 CDN 缓存（重要）
+
+jsDelivr 会缓存文件，更新后可能短时间仍返回旧版本。遇到「下载下来的配置不对」时：
+
+1. 先用 GitHub 原始地址（无缓存）核对：
+   `https://raw.githubusercontent.com/chengaiying99-cmd/QuantumultX/refs/heads/main/profile/QX_Config.conf`
+2. 需要立刻刷新 CDN 缓存，访问一次：
+   `https://purge.jsdelivr.net/gh/chengaiying99-cmd/QuantumultX@main/`
+3. 或在 CDN 地址后加短暂查询参数强制绕过缓存（QX 下载后请确认文件开头是
+   `# Quantumult X 配置（清爽版）`，旧版首行是 `# Quantumult X 配置 @curtinp118`）。
+
 ### 2. 配置订阅
 
 编辑 `[server_remote]` 部分添加你的机场订阅链接。
