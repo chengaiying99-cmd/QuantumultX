@@ -120,8 +120,6 @@ Google 重定向及部分远程重写需要 MITM 证书：
 - [iOS 规则脚本库 - blackmatrix7](https://github.com/blackmatrix7/ios_rule_script)
 - [资源解析与脚本 - KOP-XIAO](https://github.com/KOP-XIAO/QuantumultX)
 - [广告规则 - AWAvenue](https://github.com/TG-Twilight/AWAvenue-Ads-Rule)
-- [YouTube 重写 - ZenmoFeiShi/Qx](https://github.com/ZenmoFeiShi/Qx)
-- [Spotify 重写 - app2smile/rules](https://github.com/app2smile/rules)
 
 欢迎提交 Issue 和 Pull Request！
 
