@@ -51,6 +51,7 @@ Google 重定向及部分远程重写需要 MITM 证书：
 - **广告拦截**：AWAvenue 与 Advertising 规则统一交由 `Ads` 策略处理
 
 ### 🔄 重写规则
+- 红果 / 番茄去广告（本仓库 `rules/hongguo-adblock.list` + `scripts/hongguo-adblock.conf`）
 
 - BoxJS
 - YouTube 字幕
@@ -67,17 +68,6 @@ Google 重定向及部分远程重写需要 MITM 证书：
 
 所有脚本统一在 [Scripthub](https://github.com/curtinp118/Scripthub) 管理，支持 QX / Loon / Surge 三端。
 
-### 签到类
-
-| 脚本 | 功能 | 使用方法 |
-|------|------|----------|
-| `new-api.js` | NewAPI 中转站通用签到 | 先抓包保存 `/api/user/self` 的 Cookie，支持多站点多账户 |
-| `v2ex.js` | V2EX 每日签到 | 访问 V2EX 个人主页保存 Cookie |
-| `glados.js` | GLaDOS / Railgun 签到 + 积分兑换 | 访问控制台抓包保存 Cookie，支持多域名多账户 |
-| `cd-rail.js` | 成都地铁签到 | 打开成都地铁 App 签到页面保存请求头 |
-| `cmcc.js` | 中国移动签到 | 打开移动 App 签到页面保存 Cookie |
-| `nodeseek.js` | NodeSeek 论坛签到 | 访问 NodeSeek 个人页面保存请求头 |
-
 ### 解锁类
 
 | 脚本 | 功能 | 说明 |
@@ -87,7 +77,6 @@ Google 重定向及部分远程重写需要 MITM 证书：
 | `nicegram.js` | Nicegram 解锁 | 需要 MITM |
 | `dreamface.js` | DreamFace 解锁 | 需要 MITM |
 | `notability.js` | Notability 解锁 | 需要 MITM |
-| `dandanvip.js` | 蛋蛋不语 VIP | 需要 MITM |
 
 
 
