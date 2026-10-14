@@ -72,11 +72,7 @@ Google 重定向及部分远程重写需要 MITM 证书：
 
 | 脚本 | 功能 | 说明 |
 |------|------|------|
-| `buding.js` | 布丁锁屏解锁 | 需要 MITM |
 | `caiyun.js` | 彩云天气解锁 | 需要 MITM |
-| `nicegram.js` | Nicegram 解锁 | 需要 MITM |
-| `dreamface.js` | DreamFace 解锁 | 需要 MITM |
-| `notability.js` | Notability 解锁 | 需要 MITM |
 
 
 
